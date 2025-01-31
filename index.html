@@ -6,6 +6,7 @@
     <meta name="author" content="Silas Aurelius Leone">
     <meta name="description" content="Personal Portfolio">
     <title>Silas Aurelius Leone</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body style="color: white; margin: 0; padding: 0; font-family: Arial, sans-serif;">
     <header>
@@ -46,21 +47,78 @@
 
             <h3>APIs &amp; CRUD Method</h3>
             <p>During my apprenticeship at Coding Temple, I learned about APIs (Application Programming Interfaces). APIs bring limitless possibilities to extend functionality and integrate systems seamlessly.</p>
+            <p>Part of my training is using the framework Postman. The video below will show me using Postman to delete a member from my Gym Database.</p>
+            
+            <video src="./CRUD_Delete.mp4" controls width="100%" height="auto" style="display: block; margin: 0 auto;" description="Short video about using Postman to manipulate data."></video>
+            <figcaption>Manipulating data with the Postman tool.</figcaption>
         </section>
 
         <hr style="border: 2px solid gold; width: 100%;">
 
         <section id="skills" style="padding: 20px;">
             <h2>Skills</h2>
+
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <ul>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fas fa-database"></i> SQL</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js-square"></i> Javascript</li>
+                <li><i class="fab fa-java"></i> Java</li>
+            </ul>
+
+            <h3><i class="fas fa-cogs"></i> Frameworks</h3>
+            <ul>
+                <li><i class="fab fa-react"></i> React</li>
+                <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                <li><i class="fas fa-pyramid"></i> Flask</li>
+            </ul>
+
+            <h3><i class="fas fa-tools"></i> DevOps Tools</h3>
+            <ul>
+                <li><i class="fab fa-github"></i> Git</li>
+                <li><i class="fab fa-vuejs"></i> Visual Studio Code</li>
+                <li><i class="fab fa-postman"></i> Postman</li>
+                <li><i class="fas fa-database"></i> MySQL Workbench</li>
+            </ul>
         </section>
 
         <hr style="border: 2px solid gold; width: 100%;">
 
         <section id="contact" style="padding: 20px;">
-            <h2>Contact Me</h2>
-        </section>
-
-        <hr style="border: 2px solid gold; width: 100%;">
+            <section id="contact" style="padding: 20px;">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or would like to connect, feel free to reach out!</p>
+            
+                <form action="submit" method="POST" style="display: flex; flex-direction: column; gap: 15px; max-width: 500px; margin: 0 auto;">
+                    <label for="name" style="margin-bottom: 5px;">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
+            
+                    <label for="email" style="margin-bottom: 5px;">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;">
+            
+                    <label for="message" style="margin-bottom: 5px;">Message:</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message" style="padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px;"></textarea>
+            
+                    <button type="submit" style="background-color: gold; color: black; padding: 10px 20px; border: none; cursor: pointer; margin-top: 10px;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            
+                <p>You can also email me directly at <a href="mailto:silas.leone@example.com" style="color: gold;"><i class="fas fa-envelope"></i> silas.leone@example.com</a></p>
+            
+                <p>Or connect with me on social media:</p>
+                <ul style="list-style-type: none; padding: 0; display: flex; gap: 20px; justify-content: center;">
+                    <li><a href="https://www.linkedin.com/in/silas-leone-794248284/" style="color: gold;"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/SilasAurelius" style="color: gold;"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            
+                <p>Call me at: <a href="tel:+1234567890" style="color: gold;"><i class="fas fa-phone"></i> +1 (234) 567-890</a></p>
+            </section>
+            
+            <hr style="border: 2px solid gold; width: 100%;">
+            
     </main>
 
     <footer style="background-color: #333; color: white; padding: 20px 0; text-align: center;">
